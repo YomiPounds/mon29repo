@@ -13,7 +13,8 @@ pipeline{
         }
         stage('create a bash file'){
             steps{
-                sh 'bash -x yomi.sh'
+                sh 'sudo chmod +x idris.sh'
+                sh 'bash -x idris.sh'
             }
         }
     }
