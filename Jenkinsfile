@@ -9,12 +9,6 @@ pipeline{
         stage('check yourself'){
            steps{
                 sh 'whoami'
-           }
-        }
-        stage('create a bash file'){
-            steps{
-                sh 'sudo chmod +x idris.sh'
-                sh 'bash -x idris.sh'
             }
         }
     }
