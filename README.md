@@ -1,3 +1,4 @@
+
 # mon29repo
 echo "These are the steps I will take to contribute to a project"
 echo "I will create a directory in my IDE and cd into the directory.
