@@ -13,7 +13,7 @@ pipeline{
         }
         stage('create a bash file'){
             steps{
-                sh 'bash -x /var/lib/jenkins/workspace/monday29-pipeline/yomi.sh'
+                sh 'bash -x yomi.sh'
             }
         }
     }
